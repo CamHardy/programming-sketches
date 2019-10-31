@@ -7,7 +7,7 @@ var b = 0;
 var sponge = [];
 
 function setup() {
-	canvas = createCanvas(400, 400, WEBGL);
+	canvas = createCanvas(600, 600, WEBGL);
 	canvas.parent('sketch');
 
 	let b = new Box(0, 0, 0, 200);
